@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link>
     </v-btn>
     <v-btn>
-      <router-link to="/antre">Antrian</router-link>
+      <router-link to="/queue">Antrian</router-link>
     </v-btn>
     <v-btn>
       <router-link to="/approved">Disetujui</router-link>
