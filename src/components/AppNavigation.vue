@@ -1,9 +1,17 @@
 <template>
   <v-toolbar color="brown darken-4" dark>
-    <v-btn>Home</v-btn>
-    <v-btn>Antrian</v-btn>
-    <v-btn>Disetujui</v-btn>
-    <v-btn>Ditolak</v-btn>
+    <v-btn>
+      <router-link to="/">Home</router-link>
+    </v-btn>
+    <v-btn>
+      <router-link to="/antre">Antrian</router-link>
+    </v-btn>
+    <v-btn>
+      <router-link to="/approved">Disetujui</router-link>
+    </v-btn>
+    <v-btn>
+      <router-link to="/rejected">Ditolak</router-link>
+    </v-btn>
   </v-toolbar>
 </template>
 
